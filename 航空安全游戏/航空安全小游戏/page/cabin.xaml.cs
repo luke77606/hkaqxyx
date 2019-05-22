@@ -46,7 +46,10 @@ namespace 航空安全小游戏.page
         {
             cab.Source = (new BitmapImage(new Uri("/航空安全小游戏;component/photo/安全门1.jpg", UriKind.RelativeOrAbsolute)));
             door.Visibility = Visibility.Hidden;
-            text.Visibility = Visibility.Visible;
+            text1.Visibility = Visibility.Visible;
+            text2.Visibility = Visibility.Hidden;
+            canvas.Visibility = Visibility.Hidden;
+
         }
     }
 }

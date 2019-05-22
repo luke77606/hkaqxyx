@@ -13,17 +13,20 @@
             <Image Name="cab" Source="/航空安全小游戏;component/photo/安全门.jpg" />
 
             <Image Name="door" Source="/航空安全小游戏;component/photo/white.png" Margin="279,99,389,206"   Visibility="Visible" RenderTransformOrigin="0.509,0.471" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave" MouseDown="door_MouseDown" />
-            <TextBlock Name="text" TextWrapping="Wrap" Margin="304,141,389,122" FontSize="18" Visibility="Hidden">因你的不当操作导致安全门打开，需赔偿5万元！！</TextBlock>
-            <!--<Canvas Grid.Column="1">
+            <TextBlock Name="text2" TextWrapping="Wrap" Margin="443,68,250,194.4"  FontSize="18" Visibility="Visible">大家都很好强这个开关是干什么的呢？？</TextBlock>
+
+            <TextBlock Name="text1" TextWrapping="Wrap" Margin="304,141,389,122" FontSize="18" Visibility="Hidden">因你的不当操作导致安全门打开，需赔偿5万元！！</TextBlock>
+            <Canvas Name="canvas" Grid.Column="1" Visibility="Visible">
                 <Path Fill="Red">
                     <Path.Data>
                         <GeometryGroup>
-                            <Ellipse />
+                            <EllipseGeometry RadiusX="80" RadiusY="40" Center="350,140" ></EllipseGeometry>
+                            <EllipseGeometry RadiusX="70" RadiusY="35" Center="350,140" />
 
                         </GeometryGroup>
                     </Path.Data>
                 </Path>
-            </Canvas>-->
+            </Canvas>
 
         </Grid>
     </Grid>
