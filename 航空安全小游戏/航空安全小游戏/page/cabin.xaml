@@ -1,0 +1,30 @@
+﻿<Page x:Class="航空安全小游戏.page.cabin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:航空安全小游戏.page"
+      mc:Ignorable="d" 
+      d:DesignHeight="390" d:DesignWidth="800"
+      Title="cabin">
+
+    <Grid>
+        <Grid>
+            <Image Name="cab" Source="/航空安全小游戏;component/photo/安全门.jpg" />
+
+            <Image Name="door" Source="/航空安全小游戏;component/photo/white.png" Margin="279,99,389,206"   Visibility="Visible" RenderTransformOrigin="0.509,0.471" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave" MouseDown="door_MouseDown" />
+            <TextBlock Name="text" TextWrapping="Wrap" Margin="304,141,389,122" FontSize="18" Visibility="Hidden">因你的不当操作导致安全门打开，需赔偿5万元！！</TextBlock>
+            <!--<Canvas Grid.Column="1">
+                <Path Fill="Red">
+                    <Path.Data>
+                        <GeometryGroup>
+                            <Ellipse />
+
+                        </GeometryGroup>
+                    </Path.Data>
+                </Path>
+            </Canvas>-->
+
+        </Grid>
+    </Grid>
+</Page>

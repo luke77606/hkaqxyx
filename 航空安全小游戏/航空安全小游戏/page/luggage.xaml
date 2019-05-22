@@ -1,0 +1,40 @@
+﻿<Page x:Class="航空安全小游戏.page.luggage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:航空安全小游戏.page"
+      mc:Ignorable="d" 
+      d:DesignHeight="390" d:DesignWidth="800"
+      Title="luggage">
+    <Grid>
+        <Image Source="/photo/行李箱.jpg" HorizontalAlignment="Left" Height="315" VerticalAlignment="Top" Width="389" Margin="450,38,-39,0" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.954"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image MouseDown="Image_MouseDown" Source="/photo/打火机.jpg" HorizontalAlignment="Left" Height="65" Margin="154,10,0,0" VerticalAlignment="Top" Width="44" RenderTransformOrigin="2.116,4.78"/>
+        <Image MouseDown="Image_MouseDown" Source="/photo/电脑.jpg" HorizontalAlignment="Left" Height="49" Margin="123,302,0,0" VerticalAlignment="Top" Width="70"/>
+        <Image MouseDown="Image_MouseDown" Source="/photo/管制刀具.jpg" HorizontalAlignment="Left" Height="37" Margin="25,91,0,0" VerticalAlignment="Top" Width="57"/>
+        <Image MouseDown="Image_MouseDown" Source="/photo/鸡蛋.jpg" HorizontalAlignment="Left" Height="52" Margin="21,299,0,0" VerticalAlignment="Top" Width="102" RenderTransformOrigin="-6.518,0.388"/>
+        <Image MouseDown="Image_MouseDown" Source="/photo/可乐.jpg" HorizontalAlignment="Left" Height="67" Margin="203,8,0,0" VerticalAlignment="Top" Width="31" RenderTransformOrigin="0.129,-0.548"/>
+        <Image MouseDown="Image_MouseDown" Name="lgm" Source="/photo/老干妈.jpg" HorizontalAlignment="Left" Height="49" Margin="244,86,0,0" VerticalAlignment="Top" Width="31" RenderTransformOrigin="-2.923,1.033"/>
+        <Image MouseDown="Image_MouseDown" Source="/photo/钱包.jpg" HorizontalAlignment="Left" Height="66" Margin="173,181,0,0" VerticalAlignment="Top" Width="62" RenderTransformOrigin="3.776,2.036"/>
+        <Image MouseDown="Image_MouseDown" Source="/photo/身份证.jpg" HorizontalAlignment="Left" Height="40" Margin="163,80,0,0" VerticalAlignment="Top" Width="71" RenderTransformOrigin="-2.192,0.467"/>
+        <Image MouseDown="Image_MouseDown" Source="/photo/充电宝.jpg" HorizontalAlignment="Left" Height="83" Margin="109,8,0,0" VerticalAlignment="Top" Width="45" RenderTransformOrigin="3.196,0.537"/>
+        <Image MouseDown="Image_MouseDown" Source="/photo/发胶.jpg" HorizontalAlignment="Left" Height="125" Margin="250,181,0,0" VerticalAlignment="Top" Width="25"/>
+        <Image MouseDown="Image_MouseDown" Source="/photo/炮仗.jpg" HorizontalAlignment="Left" Height="54" Margin="87,193,0,0" VerticalAlignment="Top" Width="81"/>
+        <Image MouseDown="Image_MouseDown" Source="/photo/收音机.jpg" HorizontalAlignment="Left" Height="49" Margin="79,245,0,0" VerticalAlignment="Top" Width="94"/>
+        <Image MouseDown="Image_MouseDown" Source="/photo/手动剃须刀.jpg" HorizontalAlignment="Left" Height="45" Margin="203,306,0,0" VerticalAlignment="Top" Width="66"/>
+        <Image MouseDown="Image_MouseDown" Source="/photo/相机.jpg" HorizontalAlignment="Left" Height="54" Margin="173,244,0,0" VerticalAlignment="Top" Width="77"/>
+        <Image MouseDown="Image_MouseDown" Source="/photo/双黄连.jpg" HorizontalAlignment="Left" Height="84" Margin="43,193,0,0" VerticalAlignment="Top" Width="31" RenderTransformOrigin="8.136,2.265"/>
+        <Image MouseDown="Image_MouseDown" Source="/photo/雨伞.jpg" HorizontalAlignment="Left" Height="81" Margin="25,10,0,0" VerticalAlignment="Top" Width="74"/>
+        <Image MouseDown="Image_MouseDown" Source="/photo/剃须刀.jpg" HorizontalAlignment="Left" Height="81" Margin="241,0,0,0" VerticalAlignment="Top" Width="36"/>
+        <Button x:Name="button" Content="放入行李" HorizontalAlignment="Left" Margin="330,306,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+      </Grid>
+</Page>
